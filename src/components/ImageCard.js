@@ -7,7 +7,7 @@ const ImageCard = ({image, name}) => {
     return (
         
         
-        <div className='card2 col-lg-4'>
+        <div className='card2 col-lg-4 col-md-6'>
             <Tilt className="Tilt" options={{ max: 18, speed: 200, scale:1 }}>
                     <div className='content box Tilt-inner'>
                         <h4>{name}</h4>
