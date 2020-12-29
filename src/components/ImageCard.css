@@ -1,0 +1,46 @@
+
+.card2{
+    border:none;
+    margin-bottom:40px;
+    margin-top:80px;
+    width: 280px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card2 .box{
+    
+    text-align: center;
+    opacity: 0.6;
+    padding:20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+
+}
+
+.card2 .box:hover{
+    opacity: 1;
+}
+
+.card2 img{
+    margin-top: 20px;
+    width: 280px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.card2 h4{
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding:12px;
+    color:rgb(168, 166, 166);
+    font-weight: 100;
+
+}
