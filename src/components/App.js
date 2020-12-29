@@ -12,7 +12,7 @@ const App = () => {
 
     
         const onFormSubmit = async (term) => {
-            const { data } = await axios.get('http://www.omdbapi.com', {
+            const { data } = await axios.get('https://www.omdbapi.com', {
                 params: {
                     s: term,
                     apikey: '39679f07'
